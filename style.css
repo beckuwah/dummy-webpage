@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #505962;
+    overflow-x: hidden;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.aboutusRow{
+    padding-bottom: 50px;
+}
+.card{
+    line-height: 30px ;
+    font-weight: 100;
+    background-color: rgba(255, 249, 249, 0);
+    border: none;
+    border-radius: 0;
+}
+.card .card-title{
+    padding-bottom: 5px;
+
+}
+.card .heroButton{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.carousel-caption{
+    margin-bottom: 300px;
+}
+
+.carousel-item{
+    height: 120vh;
+}
+
+.clientRow{
+    background: url('images/globe1.png') no-repeat 10px;
+    background-attachment: fixed;
+    height: 700px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/* .clientRo .carousel-item{
+    height: 500px;
+} */
+.contact{
+    line-height:2rem ;
+    color: #940b0b;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: justify;
+}
+.contact a{
+    color: #940b0b;
+    text-decoration: none;
+}
+.content{
+    text-align: justify;
+    letter-spacing: .1em;
+}
+.contentRow p::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+.content-section{
+    text-align: center;
+    margin: 30px; 
+}
+
+.fa-paperclip{
+    padding-right: 10px;
+    font-size: 25px;
+    color: #940b0b;
+}
+.footer{
+    color: black;;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+.footer::before{
+    background: url('images/globe1.png') no-repeat 20px;;
+    background-size: cover;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.9;
+}
+.footer::after{
+    background-color: rgba(0, 0, 0, 0.2);
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.footer-content{
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    padding-top: 70px;
+    position: relative;
+}
+.footer-content::before{
+    content: " ";
+    display: block;
+}
+   
+.footer-content::after{
+    content: " ";
+    display: block;
+
+}
+.footer-row{
+    padding-top: 100px;
+}
+.footer-bottom { 
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+.footer-search.form.control{
+    padding-left: 120px;
+    padding-bottom: 20px;
+    width: 300px;
+    border:solid #940b0b 2px;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 16px;
+}
+
+.form{
+    padding-top: 20px; 
+    padding-bottom: 10px;   
+}
+.form-content{
+    margin: 50px;
+}
+.hclass{
+    color: #000;
+    display: inline-block;
+}
+.hero {
+    color: white;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+}
+.hero::before {
+    background-image: url('images/imgcopy.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.9;
+}
+.hero::after {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.2; */
+}
+
+.herocontentBottom{
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-right: 350px;
+
+}
+.hero .page-header{
+    color: white;
+}
+hr{ 
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    width: 95%;
+}
+.imgPosition1{
+    background:url('images/imgcopy.jpg') no-repeat -500px -800px; 
+    background-attachment: fixed;
+}
+.imgPosition2{
+    background:url('images/img6.jpg') no-repeat 0 -200px;
+    background-attachment: fixed;
+}
+.imgPosition3{
+    background:url('images/home.jpg') no-repeat -500px -50px; 
+    background-attachment: fixed;
+}
+
+/* .sticky-top.opaque { 
+    background-color: rgba(255,255,255,0);
+    transition: background-color 2s ease 0s;
+} */
+.navbar{
+    height: 4.0rem;
+    letter-spacing: 0.15rem;
+    background-color: #1b465a;
+    transition: background-color 2s ease 0s;
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+}
+.navbar a{
+    font-size: 17px;
+    padding: 15px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #39b9b9;
+}
+.navbar-dark .navbar-nav .nav-link{
+    padding-left: 1rem;
+    color: white;
+    background-color: #1b465a;
+}
+
+.newSection{
+    height: 110%;
+}
+
+.page-header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 0.15rem;
+    color: #000000;
+
+}
+.projectRow{
+    background-attachment: fixed;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.projectRow .card-title{
+    color: #000;
+}
+
+@media(max-width: 767px){
+    .imgPosition1{
+        background:url('images/imgcopy.jpg') no-repeat -1000px -500px; 
+        background-attachment: fixed;
+    }
+    .imgPosition2{
+        background:url('images/img6.jpg') no-repeat -50px;
+        background-attachment: fixed;
+    }
+    .imgPosition3{
+        background:url('images/home.jpg') no-repeat -1100px -200px; 
+        background-attachment: fixed;
+    }
+}
+@media (min-width: 950px){
+    .content-section{
+        margin: 50px 150px;
+    }
+
+}
+@media(max-width:1220px){
+    .herocontentBottom{
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    
+    }
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+    transition: -webkit-transform 1.2s ease;
+    transition: transform 1.2s ease;
+    transition: transform 1.2s ease,-webkit-transform 1.2s ease;
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
