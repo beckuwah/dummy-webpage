@@ -275,6 +275,9 @@ hr{
         background:url('images/home.jpg') no-repeat -1100px -200px; 
         background-attachment: fixed;
     }
+    .footer-form{
+        padding-top: 100px;
+    }
 }
 @media (min-width: 950px){
     .content-section{
