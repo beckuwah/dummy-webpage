@@ -95,7 +95,7 @@ body{
     opacity: 0.9;
 }
 .footer::after{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.05);
     content: " ";
     display: block;
     position: absolute;
@@ -124,6 +124,7 @@ body{
 
 }
 .footer-row{
+    margin-left: 50px;
     padding-top: 100px;
 }
 .footer-bottom { 
